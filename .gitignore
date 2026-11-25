@@ -1,0 +1,22 @@
+# OS / editor / Jupyter
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# The paper and the full AJR replication package (the files the notebook needs are in data/source/)
+colonial-origins-of-comparative-development.pdf
+colonial_origins/
+data/maketable*.zip
+
+# Earlier exploratory notebooks with their data and figures (superseded by AJR_section5_results.ipynb)
+AJR_build_master_data.ipynb
+AJR_data_exploration.ipynb
+AJR_extension_*.ipynb
+TODO.md
+data/*.csv
+data/external/
+figures/*
+!figures/section5/
+
+# Report draft (kept out of the repository)
+report/section5_extension.tex
