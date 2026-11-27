@@ -10,8 +10,9 @@ This repository contains two parts:
 
 ## Data
 The original datasets are available from the MIT Data Archive (https://economics.mit.edu/people/faculty/daron-acemoglu/data-archive) of Daron Acemoglu.
-Download `maketable1.zip` and `maketable4.zip` from the authors' replication package and place both files in the `data/` folder without extracting them. 
-The master script reads the Stata datasets directly from the ZIP archives.
+The datasets used for the replication are included in the data/ folder as maketable1.zip and maketable4.zip. The ZIP archives contain only the original Stata datasets, without the authors' original scripts. The master script reads the Stata datasets directly from the ZIP archives. The original datasets remain unchanged, and all data processing and sample selection are performed in the script.
+
+The input data for the extension are included in data/source/, with the corresponding sources documented in data/source/README.md.
 
 ## Folder Structure
 ```
@@ -44,9 +45,8 @@ R 4.6.1 (RStudio 2026.10.1); packages `haven` 2.5.5, `AER` 1.2.17, `ggplot2` 4.0
 ## How to run
 1. Install R (and RStudio if using the RStudio project).
 2. Download or clone this repository.
-3. Ensure that `maketable1.zip` and `maketable4.zip` are located in the `data/` folder.
-4. Open `AJR-2001-replication.Rproj` in RStudio.
-5. Open `replication.R` and click **Source** to run the entire script.
+3. Open `AJR-2001-replication.Rproj` in RStudio.
+4. Open `replication.R` and click **Source** to run the entire script.
 
 Alternatively, run `Rscript replication.R` from the project directory in a terminal.
 
