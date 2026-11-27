@@ -22,8 +22,8 @@ AJR-2001-replication/
 ├── README.md
 ├── .gitignore                     # Git exclusions
 ├── data/
-│   ├── maketable1.zip             # Original authors' data (Not included in repository)
-│   ├── maketable4.zip             # Original authors' data (Not included in repository)
+│   ├── maketable1.zip             # Original authors' data
+│   ├── maketable4.zip             # Original authors' data
 │   └── source/                    # Extension input data (included; see data/source/README.md)
 ├── output/                        # Replication output (automatically created)
 ├── results/                       # Extension tables (created by the notebook)
